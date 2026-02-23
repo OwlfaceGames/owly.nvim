@@ -1,4 +1,4 @@
-local c = require("colors.owl-naysayer")
+local c = require("colors.owly")
 
 return {
   normal = {

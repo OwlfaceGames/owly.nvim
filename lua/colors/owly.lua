@@ -1,6 +1,3 @@
--- naysayer.nvim - a Neovim colorscheme inspired by Emacs naysayer-theme
--- Author: made by Rostislav Sobolevskiy based on Nick Aversano's Emacs theme
-
 local colors = {
   yellow     = "#E6DB74",
   orange     = "#FD971F",
@@ -42,7 +39,7 @@ local colors = {
 
 vim.cmd("highlight clear")
 vim.o.background = "dark"
-vim.g.colors_name = "owl-naysayer"
+vim.g.colors_name = "owly"
 
 local set = vim.api.nvim_set_hl
 
