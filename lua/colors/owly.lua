@@ -8,7 +8,7 @@ local colors = {
   cyan       = "#A1EFE4",
   violet     = "#AE81FF",
 
-  background = "#062625",
+  background = "#3d3d3d",
   gutter     = "#062625",
   selection  = "#0000ff",
   text       = "#d0b892",
