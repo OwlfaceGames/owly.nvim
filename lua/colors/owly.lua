@@ -55,7 +55,7 @@ set(0, "MatchParen",       { bg = colors.selection })
 
 -- Floating windows (Harpoon, Telescope, etc.)
 set(0, "NormalFloat",      { fg = colors.text, bg = colors.lualine_bg })
-set(0, "FloatBorder",      { fg = colors.line_fg, bg = colors.background })
+set(0, "FloatBorder",      { fg = colors.line_fg, bg = colors.lualine_bg })
 
 -- Trouble
 set(0, "TroubleNormal",    { fg = colors.text, bg = colors.background })
