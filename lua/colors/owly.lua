@@ -1,11 +1,11 @@
 local colors = {
   yellow     = "#E6DB74",
-  orange     = "#FD971F",
-  red        = "#F92672",
+  orange     = "#F92672",
+  red        = "#ff0000",
   magenta    = "#FD5FF0",
-  blue       = "#66D9EF",
+  blue       = "#FD971F",
   green      = "#A6E22E",
-  cyan       = "#A1EFE4",
+  cyan       = "#53d549",
   violet     = "#AE81FF",
 
   background = "#1a1a1a",
@@ -28,7 +28,6 @@ local colors = {
   line_fg    = "#4B5345",
   lualine_fg = "#AF9374",
   lualine_bg = "#3e2a45",
-  
 
   dimmed_keyword = "#b0b0b0",
   dimmed_function = "#cccccc",
