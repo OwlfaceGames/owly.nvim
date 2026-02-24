@@ -10,7 +10,7 @@ local colors = {
 
   background = "#202020",
   gutter     = "#4B5345",
-  selection  = "#4c5e48",
+  selection  = "#31522a",
   text       = "#AF9374",
   comment    = "#444444",
   punctuation= "#AF9374",
@@ -24,7 +24,7 @@ local colors = {
   white      = "#ffffff",
   error      = "#ff0000",
   warning    = "#ffaa00",
-  highlight  = "#4c5e48",
+  highlight  = "#31522a",
   line_fg    = "#4B5345",
   lualine_fg = "#AF9374",
   lualine_bg = "#1c1c1c",
