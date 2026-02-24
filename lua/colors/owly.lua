@@ -9,7 +9,7 @@ local colors = {
   violet     = "#AE81FF",
 
   background = "#1a1a1a",
-  gutter     = "#062625",
+  gutter     = "#4B5345",
   selection  = "#3e2a45",
   text       = "#AF9374",
   comment    = "#3d3d3d",
