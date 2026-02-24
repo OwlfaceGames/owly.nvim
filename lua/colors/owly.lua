@@ -27,7 +27,7 @@ local colors = {
   highlight  = "#334230",
   line_fg    = "#4B5345",
   lualine_fg = "#AF9374",
-  lualine_bg = "#1c1c1c",
+  lualine_bg = "#000000",
 
   dimmed_keyword = "#b0b0b0",
   dimmed_function = "#cccccc",
