@@ -111,5 +111,17 @@ set(0, "@field",          { link = "Identifier" })
 set(0, "@property",       { link = "Identifier" })
 set(0, "@parameter",      { link = "Identifier" })
 
+set(0, "@punctuation.delimiter", { fg = colors.punctuation })
+set(0, "@punctuation.bracket",   { fg = colors.punctuation })
+set(0, "@punctuation.special",   { fg = colors.punctuation })
+set(0, "@operator",              { fg = colors.punctuation })
+set(0, "@variable.builtin",      { fg = colors.keyword })
+set(0, "@constant.builtin",      { fg = colors.constant })
+set(0, "@function.call",         { link = "Function" })
+set(0, "@method",                { link = "Function" })
+set(0, "@method.call",           { link = "Function" })
+set(0, "@preproc",               { fg = colors.macro })
+set(0, "@namespace",             { fg = colors.variable })
+
 return colors
 
