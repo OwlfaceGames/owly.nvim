@@ -46,7 +46,7 @@ local set = vim.api.nvim_set_hl
 set(0, "Normal",           { fg = colors.text, bg = colors.background })
 set(0, "Cursor",           { bg = colors.white })
 set(0, "Visual",           { bg = colors.selection })
-set(0, "LineNr",           { fg = colors.line_fg, bg = colors.background })
+set(0, "LineNr",           { fg = colors.line_fg })
 set(0, "CursorLineNr",     { fg = colors.white, bg = colors.background })
 set(0, "CursorLine",       { bg = colors.highlight })
 set(0, "ColorColumn",      { bg = colors.highlight })
