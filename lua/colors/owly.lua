@@ -24,10 +24,10 @@ local colors = {
   white      = "#ffffff",
   error      = "#ff0000",
   warning    = "#ffaa00",
-  highlight  = "#563e57",
+  highlight  = "#999897",
   line_fg    = "#4B5345",
   lualine_fg = "#AF9374",
-  lualine_bg = "#3e2a45",
+  lualine_bg = "#1c1c1c",
 
   dimmed_keyword = "#b0b0b0",
   dimmed_function = "#cccccc",
