@@ -49,7 +49,7 @@ set(0, "Visual",           { bg = colors.selection })
 set(0, "LineNr",           { fg = colors.line_fg })
 set(0, "CursorLineNr",     { fg = colors.white, bg = colors.background })
 set(0, "CursorLine",       { bg = colors.highlight })
-set(0, "ColorColumn",      { bg = colors.lualine_bg })
+set(0, "ColorColumn",      { bg = colors.comment })
 set(0, "VertSplit",        { fg = colors.line_fg })
 set(0, "MatchParen",       { bg = colors.selection })
 
