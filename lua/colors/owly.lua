@@ -114,12 +114,12 @@ if ok then
             c = { fg = colors.lualine_fg, bg = colors.lualine_bg },
         },
         replace = {
-            a = { fg = colors.lualine_bg, bg = colors.warning, gui = "bold" },
+            a = { fg = colors.lualine_bg, bg = colors.error, gui = "bold" },
             b = { fg = colors.lualine_fg, bg = colors.gutter },
             c = { fg = colors.lualine_fg, bg = colors.lualine_bg },
         },
         command = {
-            a = { fg = colors.lualine_bg, bg = colors.number, gui = "bold" },
+            a = { fg = colors.lualine_bg, bg = colors.white, gui = "bold" },
             b = { fg = colors.lualine_fg, bg = colors.gutter },
             c = { fg = colors.lualine_fg, bg = colors.lualine_bg },
         },
