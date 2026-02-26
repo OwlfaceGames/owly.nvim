@@ -99,9 +99,9 @@ local ok, lualine = pcall(require, "lualine")
 if ok then
     local owly_lualine = {
         normal = {
-            a = { fg = colors.lualine_bg, bg = colors.green, gui = "bold" },
+            a = { fg = colors.lualine_bg, bg = colors.gutter, gui = "bold" },
             b = { fg = colors.lualine_fg, bg = colors.gutter },
-            c = { fg = colors.lualine_fg, bg = colors.lualine_bg },
+            c = { fg = colors.lualine_fg, bg = colors.line_fg },
         },
         insert = {
             a = { fg = colors.lualine_bg, bg = colors.string, gui = "bold" },
