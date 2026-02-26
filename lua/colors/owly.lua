@@ -109,12 +109,12 @@ if ok then
             c = { fg = colors.lualine_fg, bg = colors.lualine_bg },
         },
         visual = {
-            a = { fg = colors.lualine_bg, bg = colors.violet, gui = "bold" },
+            a = { fg = colors.lualine_bg, bg = colors.number, gui = "bold" },
             b = { fg = colors.lualine_fg, bg = colors.gutter },
             c = { fg = colors.lualine_fg, bg = colors.lualine_bg },
         },
         replace = {
-            a = { fg = colors.lualine_bg, bg = colors.red, gui = "bold" },
+            a = { fg = colors.lualine_bg, bg = colors.warning, gui = "bold" },
             b = { fg = colors.lualine_fg, bg = colors.gutter },
             c = { fg = colors.lualine_fg, bg = colors.lualine_bg },
         },
