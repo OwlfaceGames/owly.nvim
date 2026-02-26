@@ -100,8 +100,8 @@ if ok then
     local owly_lualine = {
         normal = {
             a = { fg = colors.lualine_bg, bg = colors.gutter, gui = "bold" },
-            b = { fg = colors.lualine_fg, bg = colors.gutter },
-            c = { fg = colors.lualine_fg, bg = colors.line_fg },
+            b = { fg = colors.lualine_fg, bg = colors.line_fg },
+            c = { fg = colors.lualine_fg, bg = colors.lualine_bg },
         },
         insert = {
             a = { fg = colors.lualine_bg, bg = colors.string, gui = "bold" },
