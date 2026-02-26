@@ -1,39 +1,39 @@
 local colors = {
-  yellow     = "#E6DB74",
-  orange     = "#567425",
-  red        = "#ff0000",
-  magenta    = "#FD5FF0",
-  blue       = "#FD971F",
-  green      = "#A6E22E",
-  cyan       = "#53d549",
-  violet     = "#AE81FF",
+    yellow     = "#E6DB74",
+    orange     = "#567425",
+    red        = "#ff0000",
+    magenta    = "#FD5FF0",
+    blue       = "#FD971F",
+    green      = "#A6E22E",
+    cyan       = "#53d549",
+    violet     = "#AE81FF",
 
-  background = "#202020",
-  gutter     = "#4B5345",
-  selection  = "#334230",
-  text       = "#AF9374",
-  comment    = "#4a4a4a",
-  punctuation= "#AF9374",
-  keyword    = "#ffffff",
-  variable   = "#AF9374",
-  function_  = "#AF9374",
-  string     = "#3ad0b5",
-  constant   = "#668535",
-  macro      = "#668535",
-  number     = "#d1833f",
-  white      = "#ffffff",
-  error      = "#ff0000",
-  warning    = "#ffaa00",
-  highlight  = "#334230",
-  line_fg    = "#4B5345",
-  lualine_fg = "#AF9374",
-  lualine_bg = "#151515",
+    background = "#202020",
+    gutter     = "#4B5345",
+    selection  = "#334230",
+    text       = "#AF9374",
+    comment    = "#4a4a4a",
+    punctuation= "#AF9374",
+    keyword    = "#ffffff",
+    variable   = "#AF9374",
+    function_  = "#AF9374",
+    string     = "#3ad0b5",
+    constant   = "#668535",
+    macro      = "#668535",
+    number     = "#d1833f",
+    white      = "#ffffff",
+    error      = "#ff0000",
+    warning    = "#ffaa00",
+    highlight  = "#334230",
+    line_fg    = "#4B5345",
+    lualine_fg = "#AF9374",
+    lualine_bg = "#151515",
 
-  dimmed_keyword = "#b0b0b0",
-  dimmed_function = "#cccccc",
-  dimmed_variable = "#a0b8c8",
-  dimmed_string = "#2fa89e",
-  dimmed_type = "#79c4a6",
+    dimmed_keyword = "#b0b0b0",
+    dimmed_function = "#cccccc",
+    dimmed_variable = "#a0b8c8",
+    dimmed_string = "#2fa89e",
+    dimmed_type = "#79c4a6",
 }
 
 vim.cmd("highlight clear")
@@ -94,6 +94,43 @@ set(0, "rainbowcol6", { fg = colors.red })
 -- Lualine integration
 set(0, "StatusLine",        { fg = colors.lualine_fg, bg = colors.lualine_bg })
 set(0, "StatusLineNC",      { fg = colors.line_fg, bg = colors.gutter })
+
+local ok, lualine = pcall(require, "lualine")
+if ok then
+    local owly_lualine = {
+        normal = {
+            a = { fg = colors.lualine_bg, bg = colors.green, gui = "bold" },
+            b = { fg = colors.lualine_fg, bg = colors.gutter },
+            c = { fg = colors.lualine_fg, bg = colors.lualine_bg },
+        },
+        insert = {
+            a = { fg = colors.lualine_bg, bg = colors.string, gui = "bold" },
+            b = { fg = colors.lualine_fg, bg = colors.gutter },
+            c = { fg = colors.lualine_fg, bg = colors.lualine_bg },
+        },
+        visual = {
+            a = { fg = colors.lualine_bg, bg = colors.violet, gui = "bold" },
+            b = { fg = colors.lualine_fg, bg = colors.gutter },
+            c = { fg = colors.lualine_fg, bg = colors.lualine_bg },
+        },
+        replace = {
+            a = { fg = colors.lualine_bg, bg = colors.red, gui = "bold" },
+            b = { fg = colors.lualine_fg, bg = colors.gutter },
+            c = { fg = colors.lualine_fg, bg = colors.lualine_bg },
+        },
+        command = {
+            a = { fg = colors.lualine_bg, bg = colors.number, gui = "bold" },
+            b = { fg = colors.lualine_fg, bg = colors.gutter },
+            c = { fg = colors.lualine_fg, bg = colors.lualine_bg },
+        },
+        inactive = {
+            a = { fg = colors.line_fg, bg = colors.lualine_bg },
+            b = { fg = colors.line_fg, bg = colors.lualine_bg },
+            c = { fg = colors.line_fg, bg = colors.lualine_bg },
+        },
+    }
+    lualine.setup({ options = { theme = owly_lualine } })
+end
 
 -- Treesitter highlights
 set(0, "@comment",        { link = "Comment" })
