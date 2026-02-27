@@ -14,7 +14,7 @@ A quiet, low noise, low colour count, dark Neovim colour scheme with natural col
 
 ### Matching Tmux & Kitty Theme
 
-- For the matching tmux theme see [owly.tmux](https://github.com/OwlfaceGames/owly.tmux).
+- For the matching tmux theme see [owly.tmux](https://github.com/OwlfaceGames/owly.tmux)
 - For the matching Kitty theme see [owly.kitty](https://github.com/OwlfaceGames/owly.kitty)
 
 ## Installation
@@ -32,4 +32,4 @@ vim.cmd.colorscheme('owly')
 ```
 
 ## Support
-If you like my work, consider supporting me through [GitHub Sponsors](https://github.com/sponsors/OwlfaceGames)🩷.
+If you like my work, consider supporting me through [GitHub Sponsors](https://github.com/sponsors/OwlfaceGames)🩷
