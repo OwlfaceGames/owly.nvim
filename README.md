@@ -12,6 +12,11 @@ A quiet, low noise, low colour count, dark Neovim colour scheme with natural col
 ![Screenshot](screenshots/example_5.png)
 ![Screenshot](screenshots/example_6.png)
 
+### Matching Tmux & Kitty Theme
+
+- For the matching tmux theme see [owly.tmux](https://github.com/OwlfaceGames/owly.tmux).
+- For the matching Kitty theme see [owly.kitty](https://github.com/OwlfaceGames/owly.kitty)
+
 ## Installation
 
 Just add this to you lazy setup.
@@ -25,3 +30,6 @@ Then add this to your init.lua to enable the colorscheme.
 ```lua
 vim.cmd.colorscheme('owly')
 ```
+
+## Support
+If you like my work, consider supporting me through [GitHub Sponsors](https://github.com/sponsors/OwlfaceGames)🩷.
