@@ -1,4 +1,4 @@
-# Owly
+# Owly Neovim
 
 A quiet, low noise, low colour count, dark Neovim colour scheme with natural colours that supports floating windows for plugins like Harpoon and Trouble.
 
