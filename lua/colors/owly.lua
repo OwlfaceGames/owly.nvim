@@ -9,7 +9,7 @@ local colors = {
     violet     = "#AE81FF",
 
     background = "#202020",
-    gutter     = "#1E221B",
+    gutter     = "#2F342D",
     selection  = "#334230",
     text       = "#AF9374",
     comment    = "#4a4a4a",
@@ -25,7 +25,7 @@ local colors = {
     error      = "#ff0000",
     warning    = "#ffaa00",
     highlight  = "#334230",
-    line_fg    = "#1E221B",
+    line_fg    = "#2F342D",
     lualine_fg = "#AF9374",
     lualine_bg = "#151515",
 
