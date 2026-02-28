@@ -9,7 +9,7 @@ local colors = {
     violet     = "#AE81FF",
 
     background = "#202020",
-    gutter     = "#2F342D",
+    gutter     = "#4B5345",
     selection  = "#334230",
     text       = "#AF9374",
     comment    = "#4a4a4a",
@@ -48,7 +48,7 @@ set(0, "Cursor",           { bg = colors.white })
 set(0, "Visual",           { bg = colors.selection })
 set(0, "LineNr",           { fg = colors.line_fg })
 set(0, "CursorLineNr",     { fg = colors.white, bg = colors.background })
-set(0, "CursorLine",       { bg = colors.gutter })
+set(0, "CursorLine",       { bg = colors.line_fg })
 set(0, "ColorColumn",      { bg = colors.highlight })
 set(0, "VertSplit",        { fg = colors.line_fg })
 set(0, "MatchParen",       { bg = colors.selection })
