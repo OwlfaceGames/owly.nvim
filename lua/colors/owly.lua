@@ -46,7 +46,7 @@ local set = vim.api.nvim_set_hl
 set(0, "Normal",           { fg = colors.text, bg = colors.background })
 set(0, "Cursor",           { bg = colors.white })
 set(0, "Visual",           { bg = colors.selection })
-set(0, "LineNr",           { fg = colors.line_fg })
+set(0, "LineNr",           { fg = colors.gutter })
 set(0, "CursorLineNr",     { fg = colors.white, bg = colors.background })
 set(0, "CursorLine",       { bg = colors.line_fg })
 set(0, "ColorColumn",      { bg = colors.highlight })
@@ -100,7 +100,7 @@ if ok then
     local owly_lualine = {
         normal = {
             a = { fg = colors.lualine_bg, bg = colors.macro, gui = "bold" },
-            b = { fg = colors.lualine_fg, bg = colors.line_fg },
+            b = { fg = colors.lualine_fg, bg = colors.gutter },
             c = { fg = colors.lualine_fg, bg = colors.lualine_bg },
         },
         insert = {
