@@ -53,7 +53,6 @@ set(0, "ColorColumn",      { bg = colors.highlight })
 set(0, "VertSplit",        { fg = colors.line_fg })
 set(0, "MatchParen",       { bg = colors.string })
 set(0, "IncSearch",        { bg = colors.blue })
-set(0, "Search",           { bg = colors.yellow})
 set(0, "Substitute",       { bg = colors.violet })
 
 -- Floating windows (Harpoon, Telescope, etc.)
