@@ -57,7 +57,7 @@ set(0, "Search",           { bg = colors.yellow, fg = colors.background })
 set(0, "CurSearch",        { bg = colors.string, fg = colors.background })
 set(0, "Substitute",       { bg = colors.cyan, fg = colors.background })
 set(0, "Folded",           { bg = colors.lualine_bg })
-set(0, "WinBar",           { bg = colors.background })
+set(0, "WinBar",           { bg = colors.background, fg = colors.white })
 set(0, "WinBarNC",         { bg = colors.background })
 
 -- Floating windows (Harpoon, Telescope, etc.)
