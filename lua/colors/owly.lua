@@ -45,7 +45,7 @@ local set = vim.api.nvim_set_hl
 -- Core UI
 set(0, "Normal",           { fg = colors.text, bg = colors.background })
 set(0, "Cursor",           { bg = colors.white })
-set(0, "Visual",           { bg = colors.selection })
+set(0, "Visual",           { reverse = true })
 set(0, "LineNr",           { fg = colors.gutter })
 set(0, "CursorLineNr",     { fg = colors.white, bg = colors.background })
 set(0, "CursorLine",       { bg = colors.line_fg })
