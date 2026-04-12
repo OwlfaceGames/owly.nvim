@@ -19,7 +19,7 @@ A quiet, low noise, low colour count, dark Neovim colour scheme with natural col
 
 ## Installation
 
-Just add this to you lazy setup.
+Just add this to your lazy setup.
 
 ```lua
 "OwlfaceGames/owly.nvim"
