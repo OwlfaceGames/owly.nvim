@@ -8,32 +8,34 @@ local colors = {
     cyan       = "#53d549",
     violet     = "#AE81FF",
 
-    background = "#000000",
-    gutter     = "#4B5345",
-    selection  = "#334230",
-    text       = "#AF9374",
-    comment    = "#4a4a4a",
-    punctuation= "#AF9374",
-    keyword    = "#ffffff",
-    variable   = "#AF9374",
-    function_  = "#AF9374",
-    string     = "#3ad0b5",
-    constant   = "#668535",
-    macro      = "#668535",
-    number     = "#d1833f",
-    white      = "#ffffff",
-    error      = "#ff0000",
-    warning    = "#ffaa00",
-    highlight  = "#334230",
-    line_fg    = "#2F342D",
-    lualine_fg = "#AF9374",
-    lualine_bg = "#151515",
+    background   = "#000000",
+    gutter       = "#4B5345",
+    selection    = "#334230",
+    text         = "#AF9374",
+    comment      = "#4a4a4a",
+    punctuation  = "#AF9374",
+    keyword      = "#ffffff",
+    variable     = "#AF9374",
+    function_    = "#AF9374",
+    string       = "#3ad0b5",
+    constant     = "#668535",
+    macro        = "#668535",
+    number       = "#d1833f",
+    white        = "#ffffff",
+    error        = "#ff0000",
+    warning      = "#ffaa00",
+    highlight    = "#334230",
+    line_fg      = "#2F342D",
+    cursor_line  = "#1f1f1f",
+    color_column = "#0f0f0f",
+    lualine_fg   = "#AF9374",
+    lualine_bg   = "#151515",
 
-    dimmed_keyword = "#b0b0b0",
+    dimmed_keyword  = "#b0b0b0",
     dimmed_function = "#cccccc",
     dimmed_variable = "#a0b8c8",
-    dimmed_string = "#2fa89e",
-    dimmed_type = "#79c4a6",
+    dimmed_string   = "#2fa89e",
+    dimmed_type     = "#79c4a6",
 }
 
 vim.cmd("highlight clear")
@@ -48,8 +50,8 @@ set(0, "Cursor",           { bg = colors.white })
 set(0, "Visual",           { reverse = true })
 set(0, "LineNr",           { fg = colors.gutter })
 set(0, "CursorLineNr",     { fg = colors.white, bg = colors.background })
-set(0, "CursorLine",       { bg = colors.line_fg })
-set(0, "ColorColumn",      { bg = colors.highlight })
+set(0, "CursorLine",       { bg = colors.cursor_line })
+set(0, "ColorColumn",      { bg = colors.color_column })
 set(0, "VertSplit",        { fg = colors.line_fg })
 set(0, "MatchParen",       { bg = colors.string, fg = colors.background })
 set(0, "IncSearch",        { bg = colors.blue, fg = colors.background })
